@@ -1,0 +1,21 @@
+{
+    "name": "SideTube",
+    "description": "Youtube on The Side",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "icons": {"128": "SideTube.png"},
+    "version": "1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "SideTube",
+        "default_icon": "SideTube.png"
+    }, 
+    "permissions": [ 
+
+	],
+    "options_page": "html/options.html",
+    "content_security_policy": "script-src 'self' https://code.jquery.com https://netdna.bootstrapcdn.com; object-src 'self'"
+}
